@@ -1,0 +1,659 @@
+/* Extra small device(portrait phone, less then 576px) */
+
+@media(max-width:575.98px) {
+
+    #top_bar .address {
+        margin-left: 80px;
+    }
+    .top p a{
+        margin-left: 15px;
+    }
+    .top .icon i{
+        margin-left: 10px;
+    }
+    #navbarNav ul.align-items-center{
+        align-items: flex-end !important;
+    }
+    .nav-item{
+        border: hidden;
+    }
+    #navbarNav a{
+        margin-right: 10px !important;
+        padding-bottom: 10px !important;
+        color: black;
+    }
+    .banner-text h2{
+        font-size: 36px;
+    }
+    .banner-text p{
+        font-size: 17px;
+    }
+    #types .media {
+        margin: 30px 0 65px 0;
+    }
+    #services .services-title h4::before{
+        left: 245px !important;
+    }
+    #services .sub-services img {
+        width: 255px;
+        height: 200px;
+        margin-bottom: 15px;
+        margin-left: 20px;
+    }
+    #services .sub-services p {
+        font-size: 9px;
+        line-height: 2;
+        margin-left: 20px;
+    
+    }
+    #services .sub-services h4{
+        margin-left: 20px;
+    }
+    #services .sub-services a{
+        margin-left: 20px;
+    }
+    #services .sub-services{
+        margin-left: 0px;
+    }
+    #articles .article-title{
+        padding-bottom: 0px;
+    }
+    #articles .article-title h2::before{
+        bottom: -33px !important;
+    }
+    .article-img img {
+        width: 535px;
+        height: 310px;
+        object-fit: cover;
+    }
+    .article-text {
+        margin: 20px 10px 0 0px;
+    }
+    #parqui-propos{
+        margin: 0px 20px;
+    }
+    #parqui-propos h2{
+        margin-top: 40px;
+    }
+    #parqui-propos .propos img {
+        width: 280px;
+        height: 465px;
+        object-fit: cover;
+    }
+    #parqui-propos .propos p{
+        font-size: 14px;
+        margin-left: 27px;
+    }
+    .company img {
+        width: 160px;
+        margin: 20px 19px 20px 0;
+    }
+    #reference::after{
+        bottom: 32px;
+        left: -345px;
+        width: 71%;
+        height: 74%;
+    }
+    #reference::before {
+        top: -12px;
+        right: -268px;
+        width: 60%;
+        height: 80%;
+    }
+    .footer-first {
+        margin-left: 20px;
+    }
+    #footer .footer-first img {
+         width: 220px;
+    }
+    #footer .footer-first p {
+        font-size: 12px;
+        margin: 65px 0;
+    }
+    #footer .footer-first a {
+        padding: 15px 20px;
+    }
+    .footer-second {
+        margin-left: 20px;   
+    }
+    #footer .foot-i {
+        margin-bottom: 20px 
+    }
+    #footer .foot-i p {
+        font-size: 10px
+    }
+    #footer .footer-third{
+        margin-left: 20px;
+    }
+    #footer .footer-third p {
+        font-size: 8px;
+        padding-right: 30px;
+        padding-bottom: 12%;
+    }
+    #footer .footer-fourth i {
+        margin: 7px 12px 5px 0; 
+    }
+    #footer .footer-fourth a {
+        font-size: 10px;  
+    }
+    #footer .contact-items {
+        padding-bottom: 15px;  
+    }
+    #footer .footer-fourth p{
+        font-size: 7px;
+    }
+    #footer .footer-fourth{
+        margin-left: 0px !important;
+    }
+    #footer .l-side{
+        margin-bottom: 50px;
+    }
+    #footer .last{
+        margin-bottom: 0px;
+    }
+}
+
+/* small device (Lanscape phone, 576px and up) */
+
+@media(min-width:576px) and (max-width:767.98px) {
+
+    #top_bar .address {
+        margin-left: 80px;
+    }
+    .top p a{
+        margin-left: 15px;
+    }
+    .top .icon i{
+        margin-left: 10px;
+    }
+    #navbarNav ul.align-items-center{
+        align-items: flex-end !important;
+    }
+    .nav-item{
+        border: hidden;
+    }
+    #navbarNav a{
+        margin-right: 10px !important;
+        padding-bottom: 10px !important;
+        color: black;
+    }
+    .banner-text h2{
+        font-size: 40px;
+    }
+    .banner-text p{
+        font-size: 20px;
+    }
+    #types .media {
+        margin: 30px 0 65px 0;
+    }
+    #services .services-title h4::before{
+        left: 225px !important;
+    }
+    #services .sub-services img {
+        width: 250px;
+        height: 200px;
+        margin-bottom: 15px;
+        margin-left: 20px;
+    }
+    #services .sub-services p {
+        font-size: 9px;
+        line-height: 2;
+        margin-left: 20px;
+    
+    }
+    #services .sub-services h4{
+        margin-left: 20px;
+    }
+    #services .sub-services a{
+        margin-left: 20px;
+    }
+    #services .sub-services{
+        margin-left: 0px;
+    }
+    #articles .article-title{
+        padding-bottom: 0px;
+    }
+    #articles .article-title h2{
+        font-size: 38px;
+    }
+    #articles .article-title h2::before{
+        bottom: -35px !important;
+    }
+    .article-img img {
+        width: 505px;
+        height: 310px;
+        object-fit: cover;
+    }
+    .article-text {
+        margin: 20px 10px 0 0px;
+    }
+    #parqui-propos{
+        margin: 0px 20px;
+    }
+    #parqui-propos h2{
+        margin-top: 40px;
+    }
+    #parqui-propos .propos img {
+        width: 280px;
+        height: 465px;
+        object-fit: cover;
+    }
+    #parqui-propos .propos p{
+        font-size: 14px;
+        margin-left: 27px;
+    }
+    .company img {
+        width: 145px;
+        margin: 20px 20px 20px 0;
+    }
+    #reference::after{
+        bottom: 40px;
+        left: -280px;
+        width: 71%;
+        height: 74%;
+    }
+    #reference::before {
+        top: -12px;
+        right: -268px;
+        width: 60%;
+        height: 80%;
+    }
+    .footer-first {
+        margin-left: 20px;
+    }
+    #footer .footer-first img {
+         width: 220px;
+    }
+    #footer .footer-first p {
+        font-size: 12px;
+        margin: 65px 0;
+    }
+    #footer .footer-first a {
+        padding: 15px 20px;
+    }
+    .footer-second {
+        margin-left: 20px;   
+    }
+    #footer .foot-i {
+        margin-bottom: 20px 
+    }
+    #footer .foot-i p {
+        font-size: 9px
+    }
+    #footer .footer-third{
+        margin-left: 20px;
+    }
+    #footer .footer-third p {
+        font-size: 8px;
+        padding-right: 30px;
+        padding-bottom: 12%;
+    }
+    #footer .footer-fourth i {
+        margin: 7px 12px 5px 0; 
+    }
+    #footer .footer-fourth a {
+        font-size: 10px;  
+    }
+    #footer .contact-items {
+        padding-bottom: 15px;  
+    }
+    #footer .footer-fourth p{
+        font-size: 7px;
+    }
+    #footer .footer-fourth{
+        margin-left: 0px !important;
+    }
+    #footer .l-side{
+        margin-bottom: 50px;
+    }
+    #footer .last{
+        margin-bottom: 0px;
+    }
+}
+
+/* medium device (tablets, 768 and up) */
+
+@media(min-width:768px) and (max-width:991.98px) {
+
+    #top_bar .address {
+        margin-left: 230px;
+    }
+    .top p a{
+        margin-left: 15px;
+    }
+    .top .icon i{
+        margin-left: 10px;
+    }
+    #navbarNav ul.align-items-center{
+        align-items: flex-end !important;
+    }
+    .nav-item{
+        border: hidden;
+    }
+    #navbarNav a{
+        margin-right: 10px !important;
+        padding-bottom: 10px !important;
+        color: black;
+    }
+    .banner-text h2{
+        font-size: 45px;
+    }
+    .banner-text p{
+        font-size: 20px;
+    }
+    #types .media {
+        margin: 30px 0 65px 0;
+    }
+    #services .services-title h4::before{
+        left: 315px !important;
+    }
+    #services .sub-services img {
+        width: 330px;
+        height: 230px;
+        margin-bottom: 15px;
+        margin-left: 20px;
+    }
+    #services .sub-services p {
+        font-size: 9px;
+        line-height: 2;
+        margin-left: 20px;
+    
+    }
+    #services .sub-services h4{
+        margin-left: 20px;
+    }
+    #services .sub-services a{
+        margin-left: 20px;
+    }
+    #services .sub-services{
+        margin-left: 0px;
+    }
+    #articles .article-title{
+        padding-bottom: 0px;
+    }
+    #articles .article-title h2::before{
+        bottom: -33px !important;
+    }
+    .article-img img {
+        width: 685px;
+        height: 345px;
+        object-fit: cover;
+    }
+    .article-text {
+        margin: 20px 10px 0 0px;
+    }
+    #parqui-propos{
+        margin: 0px 20px;
+    }
+    #parqui-propos h2{
+        margin-top: 40px;
+    }
+    #parqui-propos .propos img {
+        width: 300px;
+        height: 380px;
+        object-fit: cover;
+    }
+    #parqui-propos .propos p{
+        font-size: 16px;
+        margin-left: 0px;
+    }
+    .propos a{
+        margin-left: 0px;
+    }
+    .company img {
+        width: 150px;
+        margin: 20px 19px 20px 0;
+    }
+    #reference::after{
+        bottom: 32px;
+        left: -245px;
+        width: 71%;
+        height: 74%;
+    }
+    #reference::before {
+        top: -12px;
+        right: -375px;
+        width: 60%;
+        height: 80%;
+    }
+    .footer-first {
+        margin-left: 20px;
+    }
+    #footer .footer-first img {
+         width: 220px;
+    }
+    #footer .footer-first p {
+        font-size: 12px;
+        margin: 65px 0;
+    }
+    #footer .footer-first a {
+        padding: 15px 20px;
+    }
+    .footer-second {
+        margin-left: 20px;   
+    }
+    #footer .foot-i {
+        margin-bottom: 20px 
+    }
+    #footer .foot-i p {
+        font-size: 10px
+    }
+    #footer .footer-third{
+        margin-left: 20px;
+    }
+    #footer .footer-third p {
+        font-size: 8px;
+        padding-right: 30px;
+        padding-bottom: 12%;
+    }
+    #footer .footer-fourth i {
+        margin: 7px 12px 5px 0; 
+    }
+    #footer .footer-fourth a {
+        font-size: 10px;  
+    }
+    #footer .contact-items {
+        padding-bottom: 15px;  
+    }
+    #footer .footer-fourth p{
+        font-size: 7px;
+    }
+    #footer .footer-fourth{
+        margin-left: 0px !important;
+    }
+    #footer .l-side{
+        margin-bottom: 50px;
+        margin-right: 90px;
+    }
+    #footer .last{
+        margin-bottom: 0px;
+    }
+
+}
+
+/* large device(desktops, 992px and up) */
+
+@media(min-width:992px) and (max-width:1199.98px) {
+
+    #top_bar .address {
+        margin-left: 455px;
+    }
+    .top p a{
+        margin-left: 15px;
+    }
+    .top .icon i{
+        margin-left: 10px;
+    }
+    #navbarNav ul.align-items-center{
+        align-items: flex-end !important;
+    }
+    .banner-text h2{
+        font-size: 55px;
+    }
+    .banner-text p{
+        font-size: 25px;
+    }
+    #main_moto .media img {
+        width: 105px;
+        height: 90px;
+        object-fit: contain;
+        margin-right: 20px;
+    }
+    #main_moto .media-body p {
+        font-size: 11px;
+        margin-bottom: 0px;
+    }
+    #types .media {
+        margin: 30px 0 65px 0;
+    }
+    #types .media img {
+        width: 145px;
+        height: 160px;
+        object-fit: cover;
+        margin-right: 15px;
+        border: 1px solid 
+        black;
+    }
+    #services .services-title h4::before{
+        left: 440px !important;
+    }
+    #services .sub-services img {
+        width: 215px;
+        height: 200px;
+        margin-bottom: 15px;
+        margin-left: 20px;
+    }
+    #services .sub-services p {
+        font-size: 9px;
+        line-height: 2;
+        margin-left: 20px;
+    
+    }
+    #services .sub-services h4{
+        margin-left: 20px;
+    }
+    #services .sub-services a{
+        margin-left: 20px;
+    }
+    #services .sub-services{
+        margin-left: 0px;
+    }
+    #articles .article-title{
+        padding-bottom: 40px;
+    }
+    #articles .article-title h2::before{
+        bottom: -33px !important;
+    }
+    #articles .articles-icon {
+        margin-left: 825px;
+    }
+    .article-img img {
+        width: 355px;
+        height: 380px;
+        object-fit: cover;
+    }
+    .article-text {
+        margin: 0px;
+    }
+    #parqui-propos{
+        margin: 0px 20px;
+    }
+    #parqui-propos h2{
+        margin-top: 40px;
+    }
+    #parqui-propos .media-body {
+        margin-left: 20px;
+    }
+    #parqui-propos .media-body p{
+        font-size: 13px;
+    }
+    #parqui-propos .propos img {
+        width: 230px;
+        height: 460px;
+        object-fit: cover;
+    }
+    #parqui-propos .propos p{
+        font-size: 13.5px;
+        margin-left: 8px;    
+        margin-bottom: 25px;
+    }
+    .propos a{
+        margin-left: 10px;
+    }
+    .company img {
+        width: 167px;
+        margin: 20px 19px 20px 0;
+    }
+    #reference::after{
+        bottom: 32px;
+        left: -260px;
+        width: 71%;
+        height: 74%;
+    }
+    #reference::before {
+        top: -12px;
+        right: -500px;
+        width: 60%;
+        height: 80%;
+    }
+    .footer-first {
+        margin-left: 20px;
+    }
+    #footer .footer-first img {
+         width: 220px;
+    }
+    #footer .footer-first p {
+        font-size: 12px;
+        margin: 65px 0;
+    }
+    #footer .footer-first a {
+        padding: 15px 20px;
+    }
+    .footer-second {
+        margin-left: 20px;   
+    }
+    #footer .foot-i {
+        margin-bottom: 28px 
+    }
+    #footer .foot-i p {
+        font-size: 10px
+    }
+    #footer .footer-third{
+        margin-left: 20px;
+    }
+    #footer h4 {
+        padding-bottom: 15px;
+    }
+    #footer .footer-third p {
+        font-size: 8px;
+        padding-right: 30px;
+        padding-bottom: 0%;
+    }
+    #footer .footer-fourth i {
+        margin: 4px 12px 5px 0; 
+    }
+    #footer .footer-fourth a {
+        font-size: 10px;  
+    }
+    #footer .contact-items {
+        padding-bottom: 15px;  
+    }
+    #footer .footer-fourth p{
+        font-size: 7px;
+    }
+    #footer .footer-fourth{
+        margin-left: 0px !important;
+    }
+    #footer .l-side{
+        margin-bottom: 0px;
+        margin-right: 0px;
+    }
+    #footer .last{
+        margin-bottom: 0px;
+    }
+}
+
+/* extra large device(large device, 1200px and up) */
+
+@media(min-width:1200px){}
+
